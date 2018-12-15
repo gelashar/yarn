@@ -1,6 +1,6 @@
 FROM node:10.14-alpine
 
-# Installs latest Chromium package.
+# Installs latest Yarn package.
 RUN apk update && apk upgrade \
     && rm -rf /var/lib/apt/lists/* \
     /var/cache/apk/* \
